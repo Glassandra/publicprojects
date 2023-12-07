@@ -1,0 +1,120 @@
+.App {
+  background-color: rgb(201, 153, 198);
+  width: 100vw;
+  height: 100vh;
+  border: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: flex;
+  position: relative;
+}
+
+.calculator {
+  position: absolute;
+  background-color: blueviolet;
+  background: linear-gradient(113deg,rgb(158, 88, 224) 0%,blueviolet 10%, blueviolet 70%, rgb(82, 25, 136));
+  border: 2px solid rgb(167, 117, 214);
+  top: 30%;
+  left: 40%;
+  width: 30%;
+  max-width: 500px;
+  height: 50%;
+  max-height: 600px;
+  box-shadow: 2px 2px 12px blueviolet;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2%;
+}
+
+.ViewResult {
+  top: 5%;
+  left: 10%;
+  width: 80%;
+  height: 14%;
+  background-color: #f8effa;
+  box-shadow: inset 2px 2px 6px 0px blueviolet;
+  border: 2px solid rgb(167, 117, 214);
+  text-align: right;
+  margin: 0;
+  color:rgb(64, 105, 105);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+}
+
+h2 {
+  margin: 0;
+  margin-right: 6px;
+  margin-top: 4px;
+  padding: 0;
+  font-size: 2rem;
+}
+
+p {
+  margin: 0;
+  margin-right: 4px;
+  margin-top: 6px;
+  padding: 0;  
+  font-size: 1rem;
+}
+
+.buttonContainer {
+  display:flex;
+  top: 25%;
+  left: 5%;
+  height: 70%;
+  width: 94%;
+  margin: 0;
+  gap: 3px;
+  flex-wrap: wrap;
+}
+
+.Button {
+  width: 22%;
+  height: 20%;
+  margin: 0;  
+  flex-grow: 3;
+  box-shadow: 2px 2px 6px 4px rgb(67, 31, 100);
+  border: 0;
+  font-family: sans-serif;
+  font-size: 2rem;   
+}
+
+.numberButton {  
+  background-color: #deb5e9;  
+  color: #f8effa;
+  text-shadow: 2px 2px 6px 0px blueviolet;
+}
+
+.otherButton {
+  background-color: #80bbb2;  
+  color: #f8effa;
+  text-shadow: 2px 2px 6px 0px blueviolet;
+}
+
+.eraseButton {  
+  width: 47% !important;
+  background-color: #d48b54;  
+  color: #f8effa;
+  text-shadow: 2px 2px 6px 0px blueviolet;   
+}
+
+.equalButton {
+  background-color: #d48b54;  
+  color: #f8effa;
+  text-shadow: 2px 2px 6px 0px blueviolet; 
+
+}
+
+.Button:hover {
+  border: 2px solid white;
+  color: rgb(199, 134, 196);
+}
+
+.eraseButton:hover {
+  border: 2px solid red;
+  color: red;
+}
