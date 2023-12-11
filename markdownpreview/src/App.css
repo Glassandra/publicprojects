@@ -1,0 +1,76 @@
+
+.App {
+  background-color: rgb(201, 153, 198);
+  width: 100vw;
+  height: 100vh;
+  border: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: flex;
+  position: relative;
+  justify-content: center ;
+  align-items: center;
+}
+
+.quote-box {
+  position: relative;
+  background-color: blueviolet;
+  background: linear-gradient(113deg,rgb(158, 88, 224) 0%,blueviolet 10%, blueviolet 70%, rgb(82, 25, 136));
+  border: 2px solid rgb(167, 117, 214);
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 80%;
+  box-shadow: 2px 2px 12px blueviolet;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2%;
+}
+
+.Container {
+  display:flex;
+  height: 45%;
+  width: 94%;
+  margin: 0;
+  gap: 3px;
+}
+
+.button {
+  width: 40%;
+  height: 40%;
+  margin: 0;  
+  box-shadow: 2px 2px 6px 4px rgb(67, 31, 100);
+  border: 0;
+  font-family: sans-serif;
+  font-size: 1.62rem;   
+  background-color: #deb5e9;  
+  color: #f8effa;
+  text-shadow: 2px 2px 6px 0px blueviolet;
+}
+
+.button:hover {
+  border: 2px solid white;
+  color: rgb(199, 134, 196);
+}
+
+.text {
+  width: 98%;
+  height: 80%;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 2rem;
+  text-shadow: 2px 2px 6px 0px blueviolet;
+  text-align: left;
+  overflow: auto;
+  border: 2px solid rgb(167, 117, 214);
+}
+
+.input {
+  color: rgb(199, 134, 196);
+}
+
+.output {
+  color:whitesmoke;
+}
