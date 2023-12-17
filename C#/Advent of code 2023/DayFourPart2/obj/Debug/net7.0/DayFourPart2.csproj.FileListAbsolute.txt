@@ -1,0 +1,14 @@
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFourPart2\bin\Debug\net7.0\DayFourPart2.exe
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFourPart2\bin\Debug\net7.0\DayFourPart2.deps.json
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFourPart2\bin\Debug\net7.0\DayFourPart2.runtimeconfig.json
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFourPart2\bin\Debug\net7.0\DayFourPart2.dll
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFourPart2\bin\Debug\net7.0\DayFourPart2.pdb
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFourPart2\obj\Debug\net7.0\DayFourPart2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFourPart2\obj\Debug\net7.0\DayFourPart2.AssemblyInfoInputs.cache
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFourPart2\obj\Debug\net7.0\DayFourPart2.AssemblyInfo.cs
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFourPart2\obj\Debug\net7.0\DayFourPart2.csproj.CoreCompileInputs.cache
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFourPart2\obj\Debug\net7.0\DayFourPart2.dll
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFourPart2\obj\Debug\net7.0\refint\DayFourPart2.dll
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFourPart2\obj\Debug\net7.0\DayFourPart2.pdb
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFourPart2\obj\Debug\net7.0\DayFourPart2.genruntimeconfig.cache
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFourPart2\obj\Debug\net7.0\ref\DayFourPart2.dll

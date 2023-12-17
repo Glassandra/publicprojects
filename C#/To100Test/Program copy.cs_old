@@ -1,0 +1,164 @@
+﻿using System;
+string[] challenge = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+string[] operators = { "+", "-", "" };
+const int n = 9;
+List<string> viableSolutions = new List<string>();
+
+//firstPart();
+//secondPart();
+thirdPart();
+
+void firstPart()
+{
+    int number = 100;
+    string[] symbolArray = new string[n];
+    generateArrays(symbolArray, 0, number);
+    viableSolutions = viableSolutions.Distinct().ToList();
+    printList(viableSolutions);
+}
+
+void secondPart()
+{
+    int maxValueList = 0;
+    int highestCount = 0;
+    for (int i = 1; i < 10000; i++)
+    {        
+        viableSolutions.Clear();
+        string[] symbolArray = new string[n];
+        generateArrays(symbolArray, 0, i);
+        viableSolutions = viableSolutions.Distinct().ToList();
+        if (viableSolutions.Count > maxValueList)
+        {
+            maxValueList = viableSolutions.Count;
+            highestCount = i;
+        }
+    }
+    Console.WriteLine("Sum with max solutions is: " + highestCount + " where the number of solutions is " + maxValueList);
+}
+
+void thirdPart() {
+    int i = 0;
+    do {        
+        viableSolutions.Clear();
+        string[] symbolArray = new string[n];
+        generateArrays(symbolArray, 0, i);
+        viableSolutions = viableSolutions.Distinct().ToList();        
+        if (viableSolutions.Count == 0) {
+            break;
+        }
+        i++;
+    } while (true);
+    Console.WriteLine("Lowest sum that cant be expressed is: " + i);
+}
+
+void generateArrays(string[] array, int i, int number)
+{
+    if (i == n)
+    {
+        string temp = calculateArray(array, number);
+        if (temp != "")
+        {
+            viableSolutions.Add(temp);
+        }
+        return;
+    }
+    for (int j = 0; j < 3; j++)
+    {
+        array[i] = operators[j];
+        generateArrays(array, i + 1, number);
+    }
+}
+
+void generateBonusArrays() {
+    
+}
+
+
+void printArray(String[] array)
+{
+    Console.WriteLine();
+    foreach (String output in array)
+    {
+        Console.Write(output);
+    }
+}
+
+void printList(List<string> list)
+{
+    Console.WriteLine();
+    foreach (string output in list)
+    {
+        Console.WriteLine("100 = " + output);
+    }
+}
+
+string calculateArray(String[] array, int number)
+{
+    int sum = 0;
+    string test = "";
+    for (int i = 0; i < n; i++)
+    {
+        switch (array[i])
+        {
+            case "+":
+                if (i == 0)
+                {
+                    test = "1";
+                }
+                else
+                {
+                    sum = sum + Int32.Parse(test);
+                    test = challenge[i];
+                }
+                break;
+            case "-":
+                if (i == 0)
+                {
+                    test = "-1";
+                }
+                else
+                {
+                    sum = sum + Int32.Parse(test);
+                    test = "-" + challenge[i];
+                }
+                break;
+            case "":
+                test = test + challenge[i];
+                break;
+
+        }
+    }
+    if (test != null)
+    {
+        sum = sum + Int32.Parse(test);
+        test = "";
+    }
+    if (sum == number)
+    {
+        if (array[0] == "-")
+        {
+            test = "-1";
+        }
+        else
+        {
+            test = "1";
+        }
+        for (int i = 1; i < n; i++)
+        {
+            test = test + array[i] + challenge[i];
+        }
+        return test;
+    }
+    else
+    {
+        return "";
+    }
+}
+
+
+enum operatorsOld
+{
+    plus,
+    minus,
+    empty,
+}

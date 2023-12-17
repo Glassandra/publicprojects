@@ -1,0 +1,14 @@
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayThree\bin\Debug\net7.0\DayThree.exe
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayThree\bin\Debug\net7.0\DayThree.deps.json
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayThree\bin\Debug\net7.0\DayThree.runtimeconfig.json
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayThree\bin\Debug\net7.0\DayThree.dll
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayThree\bin\Debug\net7.0\DayThree.pdb
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayThree\obj\Debug\net7.0\DayThree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayThree\obj\Debug\net7.0\DayThree.AssemblyInfoInputs.cache
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayThree\obj\Debug\net7.0\DayThree.AssemblyInfo.cs
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayThree\obj\Debug\net7.0\DayThree.csproj.CoreCompileInputs.cache
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayThree\obj\Debug\net7.0\DayThree.dll
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayThree\obj\Debug\net7.0\refint\DayThree.dll
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayThree\obj\Debug\net7.0\DayThree.pdb
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayThree\obj\Debug\net7.0\DayThree.genruntimeconfig.cache
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayThree\obj\Debug\net7.0\ref\DayThree.dll

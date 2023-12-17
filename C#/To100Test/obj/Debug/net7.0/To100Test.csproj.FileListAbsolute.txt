@@ -1,0 +1,14 @@
+C:\Users\cassa\Documents\Projects\C#\To100Test\bin\Debug\net7.0\To100Test.exe
+C:\Users\cassa\Documents\Projects\C#\To100Test\bin\Debug\net7.0\To100Test.deps.json
+C:\Users\cassa\Documents\Projects\C#\To100Test\bin\Debug\net7.0\To100Test.runtimeconfig.json
+C:\Users\cassa\Documents\Projects\C#\To100Test\bin\Debug\net7.0\To100Test.dll
+C:\Users\cassa\Documents\Projects\C#\To100Test\bin\Debug\net7.0\To100Test.pdb
+C:\Users\cassa\Documents\Projects\C#\To100Test\obj\Debug\net7.0\To100Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cassa\Documents\Projects\C#\To100Test\obj\Debug\net7.0\To100Test.AssemblyInfoInputs.cache
+C:\Users\cassa\Documents\Projects\C#\To100Test\obj\Debug\net7.0\To100Test.AssemblyInfo.cs
+C:\Users\cassa\Documents\Projects\C#\To100Test\obj\Debug\net7.0\To100Test.csproj.CoreCompileInputs.cache
+C:\Users\cassa\Documents\Projects\C#\To100Test\obj\Debug\net7.0\To100Test.dll
+C:\Users\cassa\Documents\Projects\C#\To100Test\obj\Debug\net7.0\refint\To100Test.dll
+C:\Users\cassa\Documents\Projects\C#\To100Test\obj\Debug\net7.0\To100Test.pdb
+C:\Users\cassa\Documents\Projects\C#\To100Test\obj\Debug\net7.0\To100Test.genruntimeconfig.cache
+C:\Users\cassa\Documents\Projects\C#\To100Test\obj\Debug\net7.0\ref\To100Test.dll

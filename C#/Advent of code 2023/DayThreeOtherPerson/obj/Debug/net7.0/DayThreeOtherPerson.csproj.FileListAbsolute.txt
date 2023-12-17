@@ -1,0 +1,4 @@
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayThreeOtherPerson\obj\Debug\net7.0\DayThreeOtherPerson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayThreeOtherPerson\obj\Debug\net7.0\DayThreeOtherPerson.AssemblyInfoInputs.cache
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayThreeOtherPerson\obj\Debug\net7.0\DayThreeOtherPerson.AssemblyInfo.cs
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayThreeOtherPerson\obj\Debug\net7.0\DayThreeOtherPerson.csproj.CoreCompileInputs.cache

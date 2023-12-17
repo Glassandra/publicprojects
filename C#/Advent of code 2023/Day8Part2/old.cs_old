@@ -1,0 +1,140 @@
+﻿using System.Collections;
+using System.IO;
+using System.Numerics;
+using System.Security.Cryptography.X509Certificates;
+using System.Text.RegularExpressions;
+
+StreamReader reader = new StreamReader("C:\\Users\\cassa\\Documents\\Projects\\C#\\AdventCode\\Day8Part2\\challenge.txt");
+
+string? line;
+string direction = "";
+Hashtable nodeMapLeft = new Hashtable();
+Hashtable nodeMapRight = new Hashtable();
+List<string> startingPoints = new List<string>();
+
+
+try
+{
+    line = reader.ReadLine();
+    line = line + reader.ReadLine();
+    direction = line;
+    line = reader.ReadLine();
+
+    while (line != null)
+    {
+        if (line != "")
+        {
+            string temp = RemoveSpecialCharacters(line);
+            string[] tempArray = temp.Split(' ');
+            nodeMapLeft.Add(tempArray[0], tempArray[2]);
+            nodeMapRight.Add(tempArray[0], tempArray[3]);
+            if (tempArray[0].ElementAt(2) == 'A')
+            {
+                startingPoints.Add(tempArray[0]);
+            }
+        }
+        line = reader.ReadLine();
+    }
+}
+catch (Exception e)
+{
+    Console.WriteLine(e.Message);
+}
+finally
+{
+    reader.Close();
+}
+
+string nextKey = "AAA";
+List<int> numberOfSteps = new List<int>();
+int steps = 0;
+
+foreach (string str in startingPoints)
+{
+    bool foundSolution = false;
+    steps = 0;
+    bool nextRight = false;
+    nextKey = str;
+
+    while (foundSolution == false)
+    {
+        if (!nextRight)
+        {
+            nextKey = (string)nodeMapLeft[nextKey];
+        }
+        else if (nextRight)
+        {
+            nextKey = (string)nodeMapRight[nextKey];
+        }
+        nextRight = !nextRight;
+        
+        steps++;
+
+        if (nextKey.EndsWith("X"))
+        {
+            foundSolution = true;
+            break;
+        }
+    }
+    numberOfSteps.Add(steps+1);
+    //Console.WriteLine(str + "  steps: " + steps);
+
+}
+
+int[] result = new int[numberOfSteps.Count];
+numberOfSteps.CopyTo(result);
+int finalResult = findLCMArray(result);
+
+Console.WriteLine("Number of steps is: " + finalResult);
+
+
+string RemoveSpecialCharacters(string str)
+{
+    return Regex.Replace(str, "[^a-zA-Z0-9_. ]+", "", RegexOptions.Compiled);
+}
+
+int findLCMArray(int[] array) {
+    int current = findLCM(array[0], array[1]);
+    for (int i = 2; i<array.Length; i++) {
+        current = findLCM(current, array[i]);
+    }
+    return current;
+}
+
+int findLCM(int a, int b) {
+    int x = a;
+    int y = b;
+    while (a != b) 
+    {
+        if (a>b) {
+            a = a-b;
+        }
+        else {
+            b = b-a;
+        }
+    }
+    int lcm = (x*y)/a;
+
+    return lcm;
+}
+
+
+
+class Node
+{
+    string left { get; set; }
+    string right { get; set; }
+    string self { get; set; }
+
+    public Node(string left, string right, string self) : this(left, right)
+    {
+        this.self = self;
+    }
+
+    public Node(string left, string right)
+    {
+        this.left = left;
+        this.right = right;
+    }
+}
+

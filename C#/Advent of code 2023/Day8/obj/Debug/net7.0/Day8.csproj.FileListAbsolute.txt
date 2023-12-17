@@ -1,0 +1,14 @@
+C:\Users\cassa\Documents\Projects\C#\AdventCode\Day8\bin\Debug\net7.0\Day8.exe
+C:\Users\cassa\Documents\Projects\C#\AdventCode\Day8\bin\Debug\net7.0\Day8.deps.json
+C:\Users\cassa\Documents\Projects\C#\AdventCode\Day8\bin\Debug\net7.0\Day8.runtimeconfig.json
+C:\Users\cassa\Documents\Projects\C#\AdventCode\Day8\bin\Debug\net7.0\Day8.dll
+C:\Users\cassa\Documents\Projects\C#\AdventCode\Day8\bin\Debug\net7.0\Day8.pdb
+C:\Users\cassa\Documents\Projects\C#\AdventCode\Day8\obj\Debug\net7.0\Day8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cassa\Documents\Projects\C#\AdventCode\Day8\obj\Debug\net7.0\Day8.AssemblyInfoInputs.cache
+C:\Users\cassa\Documents\Projects\C#\AdventCode\Day8\obj\Debug\net7.0\Day8.AssemblyInfo.cs
+C:\Users\cassa\Documents\Projects\C#\AdventCode\Day8\obj\Debug\net7.0\Day8.csproj.CoreCompileInputs.cache
+C:\Users\cassa\Documents\Projects\C#\AdventCode\Day8\obj\Debug\net7.0\Day8.dll
+C:\Users\cassa\Documents\Projects\C#\AdventCode\Day8\obj\Debug\net7.0\refint\Day8.dll
+C:\Users\cassa\Documents\Projects\C#\AdventCode\Day8\obj\Debug\net7.0\Day8.pdb
+C:\Users\cassa\Documents\Projects\C#\AdventCode\Day8\obj\Debug\net7.0\Day8.genruntimeconfig.cache
+C:\Users\cassa\Documents\Projects\C#\AdventCode\Day8\obj\Debug\net7.0\ref\Day8.dll

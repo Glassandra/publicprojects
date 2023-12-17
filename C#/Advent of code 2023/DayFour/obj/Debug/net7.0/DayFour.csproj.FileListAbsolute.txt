@@ -1,0 +1,14 @@
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFour\bin\Debug\net7.0\DayFour.exe
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFour\bin\Debug\net7.0\DayFour.deps.json
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFour\bin\Debug\net7.0\DayFour.runtimeconfig.json
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFour\bin\Debug\net7.0\DayFour.dll
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFour\bin\Debug\net7.0\DayFour.pdb
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFour\obj\Debug\net7.0\DayFour.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFour\obj\Debug\net7.0\DayFour.AssemblyInfoInputs.cache
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFour\obj\Debug\net7.0\DayFour.AssemblyInfo.cs
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFour\obj\Debug\net7.0\DayFour.csproj.CoreCompileInputs.cache
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFour\obj\Debug\net7.0\DayFour.dll
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFour\obj\Debug\net7.0\refint\DayFour.dll
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFour\obj\Debug\net7.0\DayFour.pdb
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFour\obj\Debug\net7.0\DayFour.genruntimeconfig.cache
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayFour\obj\Debug\net7.0\ref\DayFour.dll

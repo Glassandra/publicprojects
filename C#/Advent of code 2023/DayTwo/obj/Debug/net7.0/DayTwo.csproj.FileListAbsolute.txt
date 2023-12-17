@@ -1,0 +1,14 @@
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayTwo\bin\Debug\net7.0\DayTwo.exe
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayTwo\bin\Debug\net7.0\DayTwo.deps.json
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayTwo\bin\Debug\net7.0\DayTwo.runtimeconfig.json
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayTwo\bin\Debug\net7.0\DayTwo.dll
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayTwo\bin\Debug\net7.0\DayTwo.pdb
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayTwo\obj\Debug\net7.0\DayTwo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayTwo\obj\Debug\net7.0\DayTwo.AssemblyInfoInputs.cache
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayTwo\obj\Debug\net7.0\DayTwo.AssemblyInfo.cs
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayTwo\obj\Debug\net7.0\DayTwo.csproj.CoreCompileInputs.cache
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayTwo\obj\Debug\net7.0\DayTwo.dll
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayTwo\obj\Debug\net7.0\refint\DayTwo.dll
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayTwo\obj\Debug\net7.0\DayTwo.pdb
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayTwo\obj\Debug\net7.0\DayTwo.genruntimeconfig.cache
+C:\Users\cassa\Documents\Projects\C#\AdventCode\DayTwo\obj\Debug\net7.0\ref\DayTwo.dll
